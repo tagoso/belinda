@@ -5,7 +5,7 @@ git clone https://github.com/tagoso/belinda.git belinda
 
 cd belinda
 
-npm install
+npm install or yarn install
 
-npm run dev
+npm run dev or yarn npm run dev
 ```
