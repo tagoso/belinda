@@ -61,15 +61,3 @@ export default async function Post({ params }: Props) {
     </>
   );
 }
-
-export async function getStaticProps() {
-  const posts = await getPosts();
-
-  return {
-    props: {
-      posts,
-    },
-    // Revalidate every 10 seconds
-    revalidate: 10,
-  };
-}
