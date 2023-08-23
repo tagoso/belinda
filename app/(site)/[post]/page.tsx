@@ -39,24 +39,20 @@ export default async function Post({ params }: Props) {
 
       <div className="items-end justify-center bg-slate-200 p-6 lg:hidden">
         <div>All Posts</div>
-        <ul>
+        <div className="mt-8">
           {posts.map((post) => (
-            <>
-              <li key={post._id}>
-                {" "}
-                -{" "}
-                <Link
-                  key={post._id}
-                  href={`/${post.slug}`}
-                  className="hover:underline"
-                >
-                  {post.title}
-                  <br />
-                </Link>
-              </li>
-            </>
+            <li key={post._id}>
+              <Link
+                key={post._id}
+                href={`/${post.slug}`}
+                className="hover:underline"
+              >
+                {post.title}
+                <br />
+              </Link>
+            </li>
           ))}
-        </ul>
+        </div>
       </div>
     </>
   );
