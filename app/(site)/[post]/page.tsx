@@ -38,7 +38,7 @@ export default async function Post({ params }: Props) {
       </div>
 
       <div className="items-end justify-center bg-slate-200 p-6 lg:hidden">
-        <div>Other Posts</div>
+        <div>All Posts</div>
         <ul>
           {posts.map((post) => (
             <>
