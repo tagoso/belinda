@@ -14,7 +14,7 @@ export async function getPosts(): Promise<Post[]> {
 			excerpt,
 			"slug": slug.current,
 			content
-		}`
+		}`, { next: { revalidate: 10 } }
   );
 }
 
