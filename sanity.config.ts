@@ -5,7 +5,7 @@ import schemas from "./sanity/schemas";
 
 
 const config = defineConfig({
-    projectId: process.env.SANITY_STUDIO_PROJECT_ID || '5sw1yf5m',
+    projectId: process.env.SANITY_STUDIO_PROJECT_ID || 'lt3dva1e',
     dataset: "production",
     tltle: "Belinda Theme Builder",
     apiVersion: "2023-08-07",
