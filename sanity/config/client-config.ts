@@ -1,5 +1,5 @@
 const clientConfig = {
-	projectId: "5sw1yf5m",
+	projectId: "lt3dva1e",
 	dataset: 'production',
 	apiVersion: '2023-07-11'
 };
